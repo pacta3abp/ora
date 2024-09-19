@@ -91,10 +91,10 @@ rm -rf logo.sh
 
 echo
 read -p "Enter your private key: " PRIV_KEY
-read -p "Enter your Alchemy WSS URL for Ethereum Mainnet: " MAINNET_WSS
-read -p "Enter your Alchemy HTTP URL for Ethereum Mainnet: " MAINNET_HTTP
-read -p "Enter your Alchemy WSS URL for Sepolia Ethereum: " SEPOLIA_WSS
-read -p "Enter your Alchemy HTTP URL for Sepolia Ethereum: " SEPOLIA_HTTP
+read -p "Enter your WS URL for Ethereum Mainnet: " MAINNET_WSS
+read -p "Enter your HTTP URL for Ethereum Mainnet: " MAINNET_HTTP
+read -p "Enter your WS URL for Sepolia Ethereum: " SEPOLIA_WSS
+read -p "Enter your HTTP URL for Sepolia Ethereum: " SEPOLIA_HTTP
 
 cat <<EOF > .env
 ############### Sensitive config ###############
