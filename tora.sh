@@ -114,7 +114,7 @@ REDIS_TTL=86400000
 
 ############### App specific config ###############
 
-CONFIRM_CHAINS='["sepolia"]'
+CONFIRM_CHAINS='["mainnet"]'
 CONFIRM_MODELS='[13]'
 
 CONFIRM_USE_CROSSCHECK=true
